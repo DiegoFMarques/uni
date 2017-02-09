@@ -1,0 +1,22 @@
+<ion-view title="Tabs Controller" id="page1" class=" ">
+  <ion-tabs ng-class="{'tabs-item-hide': $root.hideTabs}"  class="tabs-stable" id="tabsController-tabs1">
+
+    <ion-tab title="escondido" id="tabsController-tab6" class="hide">
+        <ion-nav-view name="tab6" ></ion-nav-view>
+    </ion-tab>
+
+
+      <ion-tab  title="MENSAGENS"  badge-style="badge-assertive" ui-sref="menu.tabsController.mensagens"   id="tabsController-tab5"  >
+
+          <ion-nav-view name="tab5" ></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="RECURSOS"   id="tabsController-tab1" >
+
+          <ion-nav-view name="tab1" ></ion-nav-view>
+
+      </ion-tab>
+
+
+  </ion-tabs>
+</ion-view>

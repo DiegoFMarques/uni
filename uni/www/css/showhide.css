@@ -1,0 +1,52 @@
+.animate-show {
+  opacity: 1;
+  margin-top: 10px;
+padding-left: 10px;
+  text-overflow: ellipsis;
+      white-space: initial;
+      overflow: hidden;
+        font-size: 0.9em;
+max-height: 800px;
+
+z-index: 1000;
+
+
+  left: 0px;
+  right: 0px;
+}
+
+
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  transition: all linear 0.5s;
+
+}
+
+.animate-show.ng-hide {
+opacity: 0.6;
+line-height: 20px;
+padding: 0;
+  overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+padding-bottom: 0px;
+  max-height:  20px;
+  margin-top: 0px;
+
+}
+.itemmensagem.ng-hide {
+  margin-top: -20px;
+
+  z-index: 1000;
+  position: absolute;
+
+    left: 80px;
+    right: 0px;
+
+}
+
+.textoresum.ng-hide{
+  font-weight: initial;
+    font-size: 0.80em;
+display: block !important;
+
+}
